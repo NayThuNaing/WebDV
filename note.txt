@@ -1,2 +1,11 @@
 Heading 1 to 6
 <pre> </pre> to show original.
+
+For CSS
+Inline style, Internal style, external style
+
+selector
+Simple selector=> Name=>tag, ID=>#, Class=>. 
+
+Combinator selector
+space=> all, grater than(>)=> child only, (+)=> , 
