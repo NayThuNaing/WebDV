@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Student Forms</title>
+    <style>
+        h2{
+            color:rgb(48, 16, 189);
+            text-align:center;
+        }
+        table{
+            margin-left:20px;
+            border:solid;
+            background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); 
+            border-collapse: collapse; 
+            border: 1px solid #000000;
+           
+        }
+        .table1{
+            margin:10px 100px;
+            
+        }
+        textarea{
+            width:210px;
+            height:76px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registration Forms</h2>
+    <table class="table1" cellpadding="10px" text-align="center">
+        <tr>
+            <td><label for="firstname">First Name :</label></td>
+            <td><input type="text" name="firstname" id="" placeholder="Enter your first name"></td>
+        </tr>
+        <tr>
+            <td><label for="lastname">Last Name :</label></td>
+            <td><input type="text" name="lastname" id="" placeholder="Enter your last name"></td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date Of Birth :</label></td>
+            <td><input type="date" name="dob" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email :</label></td>
+            <td><input type="email" name="email" id="" placeholder="example@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="mobile">Mobile Number :</label></td>
+            <td><input type="text" name="mogile" id="" placeholder="Enter your phone number"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender :</label></td>
+            <td><input type="radio" name="gender" id="">Male 
+                <input type="radio" name="gender" id="">Female
+            </td>
+        </tr>
+        <tr>
+            <td><label for="addresses">Addresses :</label></td>
+            <td><textarea name="addresses" id="" cols="25" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="city">City :</label></td>
+            <td><select name="city" id="">
+                <option value="">-Select your city-</option>
+                <option value="">Yangon</option>
+                <option value="">Mandalay</option>
+                <option value="">Taungoo</option>
+                <option value="">Phyu</option>
+                <option value="">Myeik</option>
+                <option value="">Bago</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="pincode">Pin Code :</label></td>
+            <td><input type="text" name="pincode" id="" placeholder="6-digits"></td>
+        </tr>
+        <tr>
+            <td><label for="country">Country :</label></td>
+            <td><select name="country" id="">
+                <option value="">-Choose your country-</option>
+                <option value="">Myanmar</option>
+                <option value="">India</option>
+                <option value="">Malaysia</option>
+                <option value="">Japan</option>
+                <option value="">Korea</option>
+                <option value="">United State</option>
+            </select></td>
+        </tr>
+        <tr><td><label for="">Hobbies :</label></td>
+            <td>
+                <input type="checkbox" name="" id="">Drawing
+                <input type="checkbox" name="" id="">Signing
+                <input type="checkbox" name="" id="">Dancing
+                <input type="checkbox" name="" id="">Sketching
+                <input type="checkbox" name="" id="">Others
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Qualification :</label></td>
+            <td>
+                <table>
+                    <th>No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><label for="">Class X</label></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><label for="">Class XII</label></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><label for="">Graduation </label></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><label for="">Masters</label></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <lable>Courses Applied for</lable>
+            </td>
+            <td>
+                <input type="radio" name="gender" id="">BCA
+                <input type="radio" name="gender" id="">B.Com
+                <input type="radio" name="gender" id="">B.Sc
+                <input type="radio" name="gender" id="">B.A
+            </td>
+
+        </tr>
+        <tr>
+            <td></td>
+           <td>
+            <button class="btn btn-secondary" type="button" aria-label="">Save</button>
+            <button class="btn btn-secondary" type="button" aria-label="">Clear</button>
+           </td>
+    </table>
+</body>
+</html>

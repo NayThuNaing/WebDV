@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first + p{
+            background-color:blue;
+        }
+
+        .second ~ p{
+            background-color:red;
+        }
+        a[target ] {
+            background-color:red;
+        }
+        a[target="_top"] {
+            background-color:blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Adjacent Sibling selectior( +  selector is the nearest one) </h1>
+
+    <p>The + selector is use to select the elements that directly after another specific element. </p>
+    <p>The following example selects the first p element that are placed immidiated after div elements.</p>
+
+    <div class="first">
+        <p>Paragraph 1 is in the div.</p>
+        <p>Paragrap 2 is in the div.</p>
+    </div>
+
+    <P>Paraghraph 3 is below the div.</P>
+    <P>Paragraph 4 is below the paragraph 3.</P>
+    <P>Paragraph 5 is below the paragraph 4.</P>
+    <P>Paragraph 5 is below the paragraph 5.</P>
+
+<hr>
+
+    <h1>Adjacent Sibling selectior (~ selector is the nearest all )</h1>
+
+    <p>The + selector is use to select the elements that directly after another specific element. </p>
+    <p>The following example selects the first p element that are placed immidiated after div elements.</p>
+
+    <div class="second">
+        <p>Paragraph 1 is in the div.</p>
+        <p>Paragrap 2 is in the div.</p>
+    </div>
+
+    <P>Paraghraph 3 is below the div.</P>
+    <P>Paragraph 4 is below the paragraph 3.</P>
+    <P>Paragraph 5 is below the paragraph 4.</P>
+    <P>Paragraph 5 is below the paragraph 5.</P>
+
+    <hr>
+
+    <h1>CSS [Attribute="value"] selectors</h1>
+
+    <h2>The links width target ="_blank" get a red background:</h2>
+
+    <a href="www.youtube.com" target="_parent">Yotube</a>
+    <a href="www.facebook.com" target="_blank">FaceBook</a>
+    <a href="www.google.com" target="_top">Google</a>
+</body>
+</html>
