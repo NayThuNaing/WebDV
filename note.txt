@@ -22,3 +22,7 @@ section><table><tfoot><ul><video>
 inline-block 
 <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label
 map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+
+Element sentence  
+h1{Mingalar par}= <h1>Mingalar par</h1>
+h1.one[title='hello']{Mingalar par $}*3
