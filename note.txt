@@ -26,3 +26,7 @@ map><object><output><q><samp><script><select><small><span><strong><sub><sup><tex
 Element sentence  
 h1{Mingalar par}= <h1>Mingalar par</h1>
 h1.one[title='hello']{Mingalar par $}*3
+
+ Position
+ static, relative=> (top,left,botton,right), alsolute, fix, sticky=>top, botton
+

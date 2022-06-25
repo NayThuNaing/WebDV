@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+    <style>
+    body{
+        margin:0px;
+        padding:0px;
+
+    }
+    .container{
+       
+    }
+    .container .nav{
+        position:fixed;
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        background-color:#2d767f;
+        height:30px;
+        
+    }
+    .nav .left-nav, .right-nav{
+        margin:3px;
+        
+    }
+    .nav .left-nav span{
+        padding:5px;
+        margin-left:30px;
+    }
+    .nav .right-nav span{
+        padding:5px;
+        margin-right:30px;
+    }
+    /*Complete nav-bar*/
+
+
+    .product-display{
+        display:flex;
+        margin-left:30px;
+        flex-flow:row wrap;
+
+    }
+    .product-display .box{
+        width:150px;
+        height:200px;
+        margin:50px 20px;
+        border:1px solid none;
+
+    }
+    .box  img{
+        width:100px;
+        height:100px;
+        width:100%;
+        transition: 0.5s;
+        
+    }
+    .box  img:hover{
+        width: 150px;
+        height:150px;
+
+    }
+
+
+    .box .btn{
+        margin-top:5px;
+       
+    }
+    .box .btn-btn{
+        height:30px;
+        width:100%;
+        border:none;
+        border-radius:5px;
+        background-color:#2d767f;
+        text-align:center;
+        transition: 0.7s;
+    }
+    .box .btn-btn:hover{
+        background-color:#f07b3f;
+        color:white;
+    }
+    
+     label .text{
+        margin-top:5px;
+    }
+    .box i{
+        color:#facf5a;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="left-nav">
+                <span>Home</span>
+                <span>About</span>
+                <span>Service</span>
+                <span>Blog</span>
+                <span>Contant</span>
+            </div>
+       
+            <div class="right-nav">
+            <span>Register</span>
+            <span>Login</span>
+            </div>
+        </div>
+
+
+        <div class="product-display">
+            <div class="box">
+                <div class="img1"><img src="../img/img1.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$600</del>$400</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+
+            <div class="box">
+                <div class="img1"><img src="../img/img2.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$200</del>$150</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img3.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$500</del>$300</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img4.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$300</del>$200</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img5.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$200</del>$180</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img6.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$300</del>$250</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img2.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$500</del>$300</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img5.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$600</del>$450</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img7.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$130</del>$105</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img9.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$170</del>$120</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img8.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$180</del>$150</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img10.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$200</del>$180</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img11.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$190</del>$1590</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+
+            <div class="box">
+                <div class="img1"><img src="../img/img13.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$200</del>$199</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+
+            <div class="box">
+                <div class="img1"><img src="../img/img14.jpg" alt=""></div>
+                <div class="text"><span><label for="" class="text">Discount <del>$200</del>$199</label></span></div>
+                <div class="span"><i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="btn"><div class="btn-btn">Buy Now</div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

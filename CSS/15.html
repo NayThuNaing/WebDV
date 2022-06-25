@@ -6,50 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
         .container{
-           
-            
+            width:500px;
+            height:500px;
             background-color:black;
             margin:auto;
+        }
+        .container .first{
             display:flex;
-            
-            
-            flex-flow:row wrap;
+            justify-content:space-between;
         }
-        .para{
-            color:white;
-            width:100px;
-            height:100px;
-            background-color:cadetblue;
-            margin:5px;
-            
+        .container .first .para{
+            border:1px solid red;
+            border-radius:50%;
+            width: 50px;
+            height:50px;
+            background-color:aqua;
+            font-size:0.5em;
+            text-align:center;
+            margin-top:7px;
         }
-            
-        .four{
-            align-self:flex-end;
+
+        .container .second{
+            display:flex;
+            flex-flow:column;
+            justify-content:space-between;
+            align-items:center;
         }
-        .three{
-            align-self:flex-start;
-        }
-        .two{
-            align-self:center;
+        .container .second .next{
+            border:1px solid red;
+            border-radius:50%;
+            width: 50px;
+            height:50px;
+            background-color:aqua;
+            font-size:0.5em;
+            text-align:center;
+            margin-top:7px;
         }
     </style>
 </head>
 <body>
     <h3>About of Flex</h3>
     <div class="container">
+       <div class="first">
         <div class="para one">One</div>
         <div class="para">Two</div>
         <div class="para three">Three</div>
+       </div>
 
-        <div class="para four">Four</div>
-        <div class="para one">One</div>
-        <div class="para">Two</div>
-        <div class="para three">Three</div>
-
-        <div class="para four">Four</div>
-     
+       <div class="second">
+        <div class="next four">Four</div>
+        <div class="next one">One</div>
+        <div class="next">Two</div>
+        <div class="next three">Three</div>
+        <div class="next four">Four</div>
+       </div>
         
     </div>
 

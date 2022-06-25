@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            
+        }
+        .title{
+
+        }
+        .static-one{
+            width:100px;
+            height:100px;
+            background-color:#ff5959;
+            position:absolute;
+            z-index:2;
+
+        }
+        .static-two{
+            width:150px;
+            height:150px;
+            background-color:#facf5a;
+            position:absolute;
+            z-index:1;
+        }
+        .static-three{
+            width:200px;
+            height:200px;
+            background-color:#085f63;
+            text-align:center;
+    }
+    .relative{
+        
+    }
+    .relative-one{
+        width:50px;
+        height:50px;
+        background-color:#ff5959;
+        
+    }
+    .relative-two{
+        width:100px;
+        height:100px;
+        background-color:#085f63;
+        position:relative;
+        top:10px;
+
+    }
+    .relative-three{
+        width:100px;
+        height:100px;
+        background-color:black;
+    }
+    .absolute-one{
+        width:50px;
+        height:50px;
+        background-color:#ff5959;
+        position:absolute;
+        bottom:0px;
+        right:30px;
+
+    }
+    .absolute-two{
+        width:100px;
+        height:100px;
+        background-color:#085f63;
+        position:relative;
+        top:10px;
+
+    }
+    .absolute-three{
+        width:100px;
+        height:100px;
+        background-color:black;
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="conteriner">
+        <h3>Absolute</h3>
+        <div class="title">
+            <div class="static-one">One</div>
+            <div class="static-two">Two</div>
+            <div class="static-three">Three</div>
+        </div>
+        <hr>
+        <h3>relative</h3>
+        <div class="relative">
+            <div class="relative-one">One</div>
+            <div class="relative-two">Two</div>
+            <div class="relative-three">Three</div>
+        </div>
+        <hr>
+        <h3>Absolute</h3>
+        <div class="absolute">
+            <div class="absolute-one">One</div>
+            <div class="absolute-two">Two</div>
+            <div class="absolute-three">Three</div>
+        </div>
+    </div>
+</body>
+
+</html>
