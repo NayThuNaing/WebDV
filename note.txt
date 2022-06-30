@@ -30,3 +30,45 @@ h1.one[title='hello']{Mingalar par $}*3
  Position
  static, relative=> (top,left,botton,right), alsolute, fix, sticky=>top, botton
 
+ Icons (fontawsome, feather icons, image hover.css)
+
+
+ Website icon အတွက် SVG များ စုစည်းမှု
+⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️
+Developer တွေ အနေနဲ့ free လဲရ project မှာ ထည့်သံုးလို့ အဆင်ပြေမယ့်
+SVG icon & background များ စုစည်းပေးလိုက်ပါတယ်
+တကယ်ကို ထည့်သံုးလိုကောင်ရတဲ့ site တွေပါ
+အောက်မှာ တစ်ခုချင်း links ချပေးတားပါတယ်
+မိတ်ဆွေတို့ သံုးတက်မယ်ဆိုရင်တော့ ရွှေပါပဲဗျ
+🤗🤗
+https://www.iconshock.com/svg-icons/
+https://icons8.com/icons
+https://www.flaticon.com/
+https://www.freepik.com/
+https://www.iconninja.com/
+https://www.svgrepo.com/
+https://www.blobmaker.app/
+https://getwaves.io/
+https://svgwave.in/
+https://squircley.app/
+https://www.softr.io/tools/svg-shape-generator
+https://blobs.app/
+https://undraw.co/illustrations
+https://www.drawkit.io/
+https://www.manypixels.co/gallery?ref=lapaninja
+https://icons8.com/illustrations
+https://humaaans.com/
+https://freeillustrations.xyz/
+https://illlustrations.co/
+https://2.flexiple.com/scale/all-illustrations
+https://sleekbundle.com/product/pulse-illustration-kit/
+https://lucid.pixsellz.io/
+https://ui8.net/
+https://control.rocks/
+https://delesign.com/free-designs/graphics
+https://isometric.online/
+https://coolbackgrounds.io/
+http://samherbert.net/svg-loaders/
+#codelab
+
+

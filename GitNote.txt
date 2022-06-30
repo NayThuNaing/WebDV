@@ -1,0 +1,55 @@
+
+Alt+Left click(Multiple Cursor)
+ div.one
+div>li*3
+ul.nav>li.nav-link*5>a.link
+
+
+
+
+
+
+
+shoutdow -s -t 0 (window off)
+
+
+mkdir folder_Name(creat Folder)
+ls (show files)
+ls -la(show list file details)
+mkdir .Folder_name(create hidden folder)
+touch filename(create file_Name)
+touch foldername/file name
+nano file_name Ctrl+X Y or N
+cp file_name New_name(to copy)
+cp -r folder_name new-folder_name(to copy folder)
+cp file_name Folder_Name/new_file_Name
+mv file_name to_move_file_name (To move)
+rm file_Name (Delete)
+rm (-rf) Folder_name(folder delete)
+git clone Link(create clone copy from git server)
+git push origin master (git upload)
+git pull origin master (git download)
+
+
+
+to pull git=======
+
+git init
+git remote add origin git_link
+git pull origin master
+
+
+
+
+
+
+
+
+
+
+Git Upload=============
+git init
+git remote add origin (git link)
+git add .
+git commit -m "reason"
+git push -u origin master
