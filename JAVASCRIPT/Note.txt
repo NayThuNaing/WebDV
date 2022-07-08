@@ -1,0 +1,6 @@
+
+for loop
+for(declararion, condition, increase / decrease)
+{
+ 
+}
