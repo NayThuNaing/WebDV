@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            background-color:red;
+            padding:10px;
+            text-align:center;
+            display:inline-block;
+            border-radius:10px;
+        }
+        .btn{
+            background-color:purple;
+            padding:10px;
+            text-align:center;
+            display:inline-block;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>COde Lab </h3>
+    <button id="red" type="button" class="btn">RED</button>
+    <h3 id="blue">BLUE</h3>
+</body>
+<script>
+    let title=document.querySelector(".title");
+    document.getElementById("red").addEventListener("click",function(){
+       title.innerHTML="Hello";
+    });
+
+
+</script>
+</html>

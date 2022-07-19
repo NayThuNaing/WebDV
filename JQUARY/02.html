@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+       
+        img{
+            margin-top: 30px;
+            width:300px;
+            height:300px;
+            border:1px solid black;
+            border-radius: 50%;
+            display: none;
+        }
+        button{
+            padding:10px 10px;
+            font-size:20px;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 id="heading">Welcome form JQuery</h3>
+   
+   <div class="btn-group">
+    <button id="show">Show</button>
+    <button id="hide">Hide</button>
+    <button id="toogle">Toogle</button>
+   </div>
+   <div class="image">
+    <img src="../img/movie03.jpg" alt="" id="img"> 
+   </div>
+    </div>
+
+
+    <script>
+        $(document).ready( ()=> {
+           $("#heading").click(function(){
+            $(this).hide();
+           });
+           $("#show").click(function(){
+            $("#img").show();
+           });
+           $("#hide").click(function(){
+            $("#img").hide();
+           });
+           $("#toogle").click(function(){
+            $("#img").toogle();
+           })
+        });
+    </script>
+</body>
+</html>

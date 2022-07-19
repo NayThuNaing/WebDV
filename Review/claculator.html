@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            width:330px;
+            height:auto;
+            padding:0px 10px;
+            margin:auto;
+            margin-top:10%;
+            background-color: #dee1ec;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            box-shadow: 5px 2px #dee1ec;
+         
+        }
+        .container input{
+            margin-top:10px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            height:40px;
+            width: 250px;
+            padding: 0px 10px;
+        }
+        .container .btn-op{
+            background-color:#ffa010;
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+            margin:10px;
+            border:none;
+            outline: none;
+            color: white;
+            
+        }
+        .container .btn{
+            
+            background-color:gray;
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+            margin:10px;
+            border:none;
+            outline: none;
+            color: white;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator" btn>
+           <table>
+            <th colspan="4"> 
+                <input type="number" placeholder="0">
+            </th>
+            <tbody>
+                <tr>
+                    <td><button class="btn-op">AC</button></td>
+                    <td><button class="btn-op"><sup>+</sup>/ <small>-</small></button></td>
+                    <td><button class="btn-op">%</button></td>
+                    <td><button class="btn-op">/</button></td>
+                </tr>
+                <tr>
+                    <td><button class=" btn btn-num1">1</button></td>
+                    <td><button class=" btn btn-num2">2</button></td>
+                    <td><button class=" btn btn-num3">3</button></td>
+                    <td><button class=" btn-op">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class=" btn btn-num4">4</button></td>
+                    <td><button class=" btn btn-num5">5</button></td>
+                    <td><button class=" btn btn-num6">6</button></td>
+                    <td><button class="btn-op">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class=" btn btn-num7">7</button></td>
+                    <td><button class=" btn btn-num8">8</button></td>
+                    <td><button class=" btn btn-num9">9</button></td>
+                    <td><button class="btn-op">*</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="btn btn-num0">0</button></td>
+                    <td><button class=" btn btn-num">.</button></td>
+                    <td><button class="btn-op">=</button></td>
+                   
+                </tr>
+
+            </tbody>
+           </table>
+        </div>
+    </div>
+</body>
+</html>

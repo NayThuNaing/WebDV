@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+
+        }
+   
+        img{
+            width:80;
+            height:80px;
+            margin:3px;
+        }
+        .table{
+            width:80%;
+            text-align:center;
+            border-collapse: collapse;
+            border: 1px solid none;
+            margin-left:10%;
+            margin-top: 30px;
+           
+
+        }
+        thead{
+            background-color: #2c9f45;
+            color: #c5e3f6;
+
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            margin-top:50px;
+        }
+        .card-body{
+            width:40%;
+            height:100px;
+            border: 1px solid black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            
+        </div>
+    </div>
+    <table class="table">
+        <thead class="thead">
+            <tr>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Price</td>
+                <td>Rating</td>
+                <td>Image</td>
+            </tr>
+        </thead>
+        <tbody class="tbody" id="page">
+      
+        </tbody>
+    </table>
+    
+</body>
+<script>
+    let page=document.getElementById("page");
+    let list=" ";//emepty string
+    fetch('https://fakestoreapi.com/products/')
+            .then(respon=>respon.json())
+            .then(result=>{
+            console.log(result);
+            // page.innerHTML=`<img src="${result[1].image}" >`;
+            let i;
+            for( i=0; i<result.length; i++)
+            {
+                list +=`<tr onclick="detail(${result[i].id})">
+                <td>${result[i].id}</td>
+                <td>${result[i].title}</td>
+                <td>${result[i].price} $</td>
+                <td>${result[i].rating.rate}</td>
+                <td><a href="${result[i].image}" target="_blink"><img src="${result[i].image}" ></a></td>
+            
+            </tr>`;
+            }
+       
+            page.innerHTML=list;
+            });
+        function detail(id)
+        {
+            console.log(id);
+        }
+</script>
+</html>
